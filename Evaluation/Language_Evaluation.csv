@@ -1,0 +1,51 @@
+Term,Type,Aligned,URI,Notes
+Sport Facility,class,Y,ltlo:sport_facility,
+Path,class,Y,ltlo:path,
+Stop,class,Y,ltlo:stop,
+Mean of Transport,class,Y,ltlo:mean_of_transport,
+Route,class,Y,ltlo:route,
+Association,class,Y,ltlo:association,
+Athlete,class,N,ltlo:athlete,Not required in CQs
+Service,class,Y,ltlo:service,
+App,class,N,ltlo:app,Not required in CQs
+Reservation,class,Y,ltlo:reservation,
+Sport,class,Y,ltlo:sport,
+Is a,object property,Y,ltlo:is_a,
+Has sport facility,object property,Y,ltlo:has_sportfacility,
+Has sport,object property,Y,ltlo:has_sport,
+Has mean of transport,object property,Y,ltlo:has_meanoftransport,
+Has stop,object property,Y,ltlo:has_stop,
+Has service,object property,Y,ltlo:has_service,
+Has route,object property,Y,ltlo:has_route,
+Has assocation,object property,Y,ltlo:has_association,
+Has athlete,object property,N,ltlo:has_athlete,Not required in CQs
+Has app,object property,N,ltlo:has_app,Not required in CQs
+Has reservation,object property,Y,ltlo:has_reservation,
+Has path,object property,Y,ltlo:has_path,
+ID,data property,Y,ltlo:id,
+Name,data property,Y,ltlo:name,
+Code ,data property,Y,ltlo:code,
+Address,data property,Y,ltlo:address,
+City,data property,Y,ltlo:city,
+Postcode,data property,Y,ltlo:postcode,
+Type,data property,Y,ltlo:type,
+Status,data property,Y,ltlo:status,
+Description,data property,Y,ltlo:description,
+Category,data property,Y,ltlo:category,
+Capacity,data property,Y,ltlo:capacity,
+Accessibility,data property,Y,ltlo:accessibility,
+Length,data property,Y,ltlo:length,
+Time,data property,Y,ltlo:time,
+Notes,data property,Y,ltlo:notes,
+Timetable,data property,Y,ltlo:timetable,
+Equipment,data property,Y,ltlo:equipment,
+Coverage,data property,Y,ltlo:coverage,
+President,data property,Y,ltlo:president,
+Age,data property,N,ltlo:age,Not required in CQs
+Sex,data property,N,ltlo:sex,Not required in CQs
+Occupation,data property,N,ltlo:occupation,Not required in CQs
+Driver,data property,N,ltlo:driver,Not required in CQs
+Cost,data property,Y,ltlo:cost,
+Players Number,data property,Y,ltlo:players_number,
+Foundation Year,data property,Y,ltlo:foundation_year,
+Walk By,data property,Y,ltlo:walk_by,

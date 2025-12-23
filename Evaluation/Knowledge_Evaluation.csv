@@ -1,0 +1,51 @@
+KATOM,Label,Type,Aligned,URI,Notes
+K1,Sport Facility,entity,Y,teo:sport_facility,OK
+K2,Path,entity,Y,teo:path,OK
+K3,Stop,entity,Y,teo:stop,OK
+K4,Mean of Transport,entity,Y,teo:mean_of_transport,OK
+K5,Route,entity,Y,teo:route,OK
+K6,Association,entity,Y,teo:association,OK
+K7,Athlete,entity,Y,teo:athlete,OK
+K8,Service,entity,Y,teo:service,OK
+K9,App,entity,Y,teo:app,OK
+K10,Reservation,entity,Y,teo:reservation,OK
+K11,Sport,entity,Y,teo_sport,OK
+K12,Is a,object property,Y,teo:is_a,OK
+K13,Has sport facility,object property,Y,teo:has_sportfacility,OK
+K14,Has sport,object property,Y,teo:has_sport,OK
+K15,Has mean of transport,object property,Y,teo:has_meanoftransport,OK
+K16,Has stop,object property,Y,teo:has_stop,OK
+K17,Has service,object property,Y,teo:has_service,OK
+K18,Has route,object property,Y,teo:has_route,OK
+K19,Has assocation,object property,Y,teo:has_association,OK
+K20,Has athlete,object property,Y,teo:has_athlete,OK
+K21,Has app,object property,Y,teo:has_app,OK
+K22,Has reservation,object property,Y,teo:has_reservation,OK
+K23,Has path,object property,Y,teo:has_path,OK
+K24,ID,data property,Y,teo:has_id,OK
+K25,Name,data property,Y,teo:has_name,OK
+K26,Code,data property,Y,teo:has_code,OK
+K27,Address,data property,Y,teo:has_address,OK
+K28,City,data property,Y,teo:has_city,OK
+K29,Postcode,data property,Y,teo:has_postcode,OK
+K30,Type,data property,Y,teo:has_type,OK
+K31,Status,data property,Y,teo:has_status,OK
+K32,Description,data property,Y,teo:has_description,OK
+K33,Category,data property,Y,teo:has_category,OK
+K34,Capacity,data property,Y,teo:has_capacity,OK
+K35,Accessibility,data property,Y,teo:has_accessibility,OK
+K36,Length,data property,Y,teo:has_length,OK
+K37,Time,data property,Y,teo:has_time,OK
+K38,Notes,data property,Y,teo:has_notes,OK
+K39,Timetable,data property,Y,teo:has_timetable,OK
+K40,Equipment,data property,Y,teo:has_equipment,OK
+K41,Coverage,data property,Y,teo:has_coverage,OK
+K42,President,data property,Y,teo:has_president,OK
+K43,Age,data property,Y,teo:has_age,OK
+K44,Sex,data property,Y,teo:has_sex,OK
+K45,Occupation,data property,Y,teo:has_occupation,OK
+K46,Driver,data property,Y,teo:has_driver,OK
+K47,Cost,data property,Y,teo:has_cost,OK
+K48,Players Number,data property,Y,teo:has_players_number,OK
+K49,Foundation Year,data property,Y,teo:has_foundation_year,OK
+K50,Walk By,data property,Y,teo:has_walk_by,OK

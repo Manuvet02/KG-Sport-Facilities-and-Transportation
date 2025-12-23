@@ -1,0 +1,30 @@
+Competency Question Number,Competency Question,Requirement,Entity,Property,Dataset,Dataset Field,Present,Notes
+1,Where are the main sports facilities located in Trentino?,sport facility name,Sport Facility,name,sport_facilities.csv,name,Y,
+1,Where are the main sports facilities located in Trentino?,sport facility address,Sport Facility,address,sport_facilities.csv,address,Y,
+1,Where are the main sports facilities located in Trentino?,sport facility city,Sport Facility,city,sport_facilities.csv,city,Y,
+2,What sports can be practiced at each sports facility?,"type of the sport facility (eg. gym, stadium)",Sport Facility,type_structure,sport_facilities.csv,type,Y,
+2,What sports can be practiced at each sports facility?,sport name,Sport,name,missing,,N,Missing dataset
+2,What sports can be practiced at each sports facility?,equipment of the sport,Sport,equipment,missing,,N,Missing dataset
+3,What is the capacity (number of seats) of each sport facility?,capacity of the sport facility,Sport Facility,capacity,sport_facilities.csv,capacity,Y,Field not complete
+4,"Which sports facilities are currently open, closed, or undegoing renovation?",status of the sport facility,Sport Facility,status,sport_facilities.csv,status,Y,Field not complete
+5,Which sports facilities reguarly host a specific team or association?,association name,Association,name,sport_associations.csv,name,Y,
+5,Which sports facilities reguarly host a specific team or association?,"type of the association (eg. association, team)",Association,type,sport_associations.csv,type,Y,
+6,Which sports facilities require reservation?,reservation id,Reservation,id,missing,,N,Missing dataset
+6,Which sports facilities require reservation?,number of people for the reservation,Reservation,number_people,missing,,N,Missing dataset
+7,Which sport facilities are accessible to people with disabilities?,accessibility of the sport facility,Sport Facility,accessibility,sport_facilities.csv,accessibility,Y,Field not complete
+7,Which sport facilities are accessible to people with disabilities?,accessibility by foot of the sport facility,Sport Facility,walk_accessibility,sport_facilities.csv,walk_by,Y,Field not complete
+8,What additional services does a sports facility offer?,service name,Service,name,missing,,N,Missing dataset
+9,Which public transport options are available to reach a specific sports facility?,mean of transport id,Mean of Transport,id,unified,id,Y,
+9,Which public transport options are available to reach a specific sports facility?,route id,Route,id,unified,id,Y,
+10,What is the closest public transport stop to a sport facility?,stop name ,Stop,name,unified,name,Y,
+11,What is the average travel time by public transport to a facility?,duration of the route,Route,duration_time,unified,time,Y,Field not complete
+12,Are there bike paths connecting a sports facility near a specific urban area?,description of the bike line,Bike Line,description,unified,description,Y,
+13,Which sports facilities are located near a specific urban area?,description of the path,Path,description,unified,description,Y,
+14,How can I travel from my town to a ski resort using public transportation?,mean of transport id,Mean of Transport,id,unified,id,Y,
+14,How can I travel from my town to a ski resort using public transportation?,route id,Route,id,unified,id,Y,
+14,How can I travel from my town to a ski resort using public transportation?,path id,Path,id,unified,id,Y,
+15,Which sports venues are accessible by bike or on foot?,notes about the path,Path,notes,unified,notes,Y,
+15,Which sports venues are accessible by bike or on foot?,flooring of the bike line,Bike Line,flooring,unified,flooring,Y,Field not complete
+16,Are there any sports facilities that are difficult to access due to limited transportation?,route id,Route,id,unified,id,Y,
+16,Are there any sports facilities that are difficult to access due to limited transportation?,wheelchair accessibility for the bus stop,Bus Stop,wheelchair_accessibility,unified,wheelchair_boarding,Y,
+17,What are the opening and closing times of sports facilities?,timetable of the sport facility,Sport Facility,timetable,sport_facilities.csv,timetable,Y,Field not complete
